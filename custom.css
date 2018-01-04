@@ -246,6 +246,10 @@ footer p {
   padding:30px !important;
 }
 
+.pricing-table .card:hover {
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
 .pink-grad {
   background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
 }
