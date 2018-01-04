@@ -227,3 +227,28 @@ footer p {
 .fa-coffee {
   color:#B19174;
 }
+
+.pricing-card-header {
+  min-height:170px !important;
+}
+
+.pricing-card-header p {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.pricing-table .card-body {
+  padding:30px !important;
+}
+
+.pink-grad {
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+.blue-grad {
+  /*background-image: linear-gradient(to right, #5386ff 0%, )*/
+  background: #5386ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5386ff, #91B2FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5386ff, #91B2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
