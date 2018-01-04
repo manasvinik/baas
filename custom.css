@@ -232,9 +232,14 @@ footer p {
   min-height:170px !important;
 }
 
-.pricing-card-header p {
+.pricing-card-header .desc {
   font-size: 26px;
   font-weight: 600;
+}
+
+.pricing-card-header p {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .pricing-table .card-body {
