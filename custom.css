@@ -11,10 +11,16 @@ h1 {
   font-weight: 700;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
   color:#393051;
   margin-bottom: 50px;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color:#393051;
+  margin-bottom: 30px;
 }
 
 section {
@@ -272,6 +278,8 @@ footer p {
   background-color: #d5d5d5;
   border-top:1px solid #d5d5d5;
   border-bottom: 1px solid #d5d5d5;
+  padding-top:100px;
+  padding-bottom: 100px;
 }
 
 #forme {
@@ -287,4 +295,9 @@ li {
 
 .bold {
   font-weight: 700;
+}
+
+.faq-sec {
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
 }
