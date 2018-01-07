@@ -11,11 +11,18 @@ h1 {
   font-weight: 700;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Poppins', sans-serif;
   color:#393051;
   margin-bottom: 50px;
 }
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color:#393051;
+  margin-bottom: 30px;
+}
+
 
 h4 {
   font-family: 'Poppins', sans-serif;
