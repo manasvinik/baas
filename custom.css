@@ -301,3 +301,10 @@ li {
   padding-bottom: 10px !important;
   padding-top: 10px !important;
 }
+
+#successh1 {
+  font-weight: 600;
+  color:white;
+  font-size: 60px;
+  margin-bottom: 0px !important;
+}
