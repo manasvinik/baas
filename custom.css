@@ -432,3 +432,37 @@ li {
   margin-top:10px;
   margin-bottom: 10px;
 }
+
+.blog-extract-container {
+  margin-top: 20px;
+  /*background-color: #C3D5FF;
+  border:1px solid #B2C2E8;*/
+}
+
+.announcement-div {
+  margin-bottom: 25px;
+}
+
+.announcement {
+  background-color: #B1D5B9;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.announcement .badge {
+  margin-right: 10px;
+}
+
+.announcement-div a {
+  color:#393051 !important;
+  font-weight: 600 !important;
+  text-decoration: : none;
+}
+
+.announcement-div a:hover {
+  text-decoration: : none;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}
