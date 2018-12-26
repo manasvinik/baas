@@ -374,6 +374,10 @@ li {
   padding-bottom: 100px;
 }
 
+.card-deck {
+  margin-top: 10px;
+}
+
 /* blog */
 
 .jumbo-blog {
@@ -465,4 +469,9 @@ li {
 
 .fa-arrow-right {
   margin-left: 10px;
+}
+
+
+.beeminder-announce {
+  background-color: #F5D77C;
 }
