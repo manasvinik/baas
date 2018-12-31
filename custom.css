@@ -239,8 +239,13 @@ background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, F
   color:#F5D77C;;
 }
 
+
+#pink-quote {
+  color:#F8A8B8;
+}
+
 .blockquote-footer {
-  font-size: 90%;
+  font-size: 105%;
 }
 
 
