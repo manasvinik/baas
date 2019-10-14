@@ -519,3 +519,6 @@ li {
     margin-top:20px
 }
 
+.btn-lg {
+  padding: 7px 5px !important;  
+}
