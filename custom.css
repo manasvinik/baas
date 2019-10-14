@@ -480,3 +480,42 @@ li {
 .beeminder-announce {
   background-color: #F5D77C;
 }
+
+
+
+
+
+
+/* email octopus */
+
+
+
+
+/*.email-octopus-form-row-consent{
+    margin-top:20px
+}
+
+.email-octopus-form-row-subscribe{
+    margin-top:20px
+}*/
+
+.email-octopus-form-row-hp{
+    position:absolute;
+    left:-5000px
+}
+.email-octopus-error-message{
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.email-octopus-success-message{
+    color:#27ae60;
+    font-weight: 600;
+}
+
+
+
+.email-octopus-referral,.email-octopus-rewards{
+    margin-top:20px
+}
+
