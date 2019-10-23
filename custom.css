@@ -272,8 +272,23 @@ background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, F
 
 .realfooter p {
   font-size: 15px;
-  color: #8897a8;;
+  color: #4B535C;;
 }
+
+.realfooter a {
+  color: #636E7B;
+  text-decoration: underline;
+}
+
+.realfooter a:hover {
+  color: #4B535C;
+  text-decoration: underline;
+}
+
+.fa-gift {
+  color:#6D6198;
+}
+
 
 .fa-heart {
   color:#F8A0B1;
