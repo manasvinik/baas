@@ -549,3 +549,41 @@ li {
 .termsofservice, .privacy h3 {
   margin:10px 0px;
 }
+
+
+/*gift*/
+
+.gift-card-header .desc {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.gift-table-container {
+  margin: 100px 0px;
+}
+
+.gift-faqs h3 {
+  margin-top:30px;
+}
+
+.border-top {
+  border-top:1px solid #d5d5d5;;
+}
+
+.gift-table-container .card-body {
+  padding:0px;
+}
+
+.gift-table-container .card-body h3 {
+  margin-bottom: 0px;
+}
+
+.gift-table-container .card-header {
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.gift-table-container .card-footer {
+  border-top: none;
+  background-color: transparent;
+}
