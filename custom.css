@@ -286,7 +286,7 @@ background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, F
 }
 
 .fa-gift {
-  color:#6D6198;
+  color:#94C595;
 }
 
 
@@ -536,4 +536,12 @@ li {
 
 .btn-lg {
   padding: 7px 5px !important;  
+}
+
+
+
+/*terms of service*/
+
+.termsofservice h2 {
+  margin:20px 0px;
 }
