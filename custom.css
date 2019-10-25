@@ -542,6 +542,10 @@ li {
 
 /*terms of service*/
 
-.termsofservice h2 {
+.termsofservice, .privacy h2 {
   margin:20px 0px;
+}
+
+.termsofservice, .privacy h3 {
+  margin:10px 0px;
 }
