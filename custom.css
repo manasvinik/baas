@@ -398,6 +398,21 @@ li {
   margin-top: 10px;
 }
 
+.boldquote {
+  font-weight: 600;
+}
+
+.testimonials .card-body {
+  line-height: 1.8;
+  background-color: #fff5f5;
+}
+
+.card-columns .card {
+    margin-bottom: 1.5rem;
+    border:none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
 /* blog */
 
 .jumbo-blog {
@@ -586,4 +601,8 @@ li {
 .gift-table-container .card-footer {
   border-top: none;
   background-color: transparent;
+}
+
+.gift-faqs .bold {
+  margin-top: 30px;
 }
