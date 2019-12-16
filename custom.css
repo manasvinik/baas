@@ -151,6 +151,13 @@ section {
   border-color: #286efa;
 }
 
+
+.btn-default:hover {
+  color:#fff;
+  background-color: #215BCD;
+  border-color: #215BCD;
+}
+
 .background-grey {
   background-color: #d4d5d7;
 }
