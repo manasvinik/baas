@@ -1,6 +1,6 @@
 (function($) {
     window.emailOctopus = {
-        successMessage: 'Awesome! We got your email and you\'ll be the first to know when we reopen!',
+        successMessage: 'Awesome! We got your email and we\'ll send you an invite soon!',
         missingEmailAddressMessage: 'Did you forget to add your email address? :)',
         invalidEmailAddressMessage: 'Your email address looks incorrect, please try again.',
         botSubmissionErrorMessage: 'This doesn\'t look like a human submission.',
