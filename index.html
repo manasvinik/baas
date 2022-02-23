@@ -39,6 +39,11 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
      <link href="custom.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:40,600" rel="stylesheet">
@@ -67,8 +72,9 @@
   </head>
   <body>
      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a href="/" class="navbar-brand d-flex w-50 mr-auto">
-        <span class="boldquote" style="margin:0px 5px; color:#1f2d3d">Boss</span> As a <span class="boldquote" style="margin: 0px 5px;"> Service</span>
+        <a href="/" class="navbar-brand d-flex w-33 mr-auto">
+        <span class="boldquote" style="margin:0px 5px; color:#171717; font-size: 1.5rem; font-weight: 700;
+    letter-spacing: -.03em;">Boss as a Service</span>
       </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
         <span class="navbar-toggler-icon"></span>
@@ -100,7 +106,7 @@
     <section id="hero">
      <div class="jumbotron text-center">
       <div class="container jumbo-text">
-        <h1>We <span style="color:#5386ff;">make sure</span> you achieve your goals</h1>
+        <h1 class="page-main-text">We make sure you achieve your goals</h1>
         <h4>We keep you accountable. You get stuff done.</h4>
       </div>
       <div class="container">
@@ -114,7 +120,7 @@
 
   <section id="howitworks">
     <h2 class="text-center">How it works</h2>
-      <p class="text-center">Hire a boss who will ensure you're consistently being productive.</p>
+      <p class="text-center big-text">Hire a boss who will ensure you're consistently being productive.</p>
       <div class="container">
         <div class="row">
           <div class="col-sm hiw-col">
@@ -156,7 +162,7 @@
     </section>
 
 
- 
+
 
 
   <section class="text-center faq-sec" id="faqs">
@@ -212,7 +218,7 @@
     </div>
   </section>
 
-  
+
 
   <section class="text-center faq-sec">
     <div class="container">
@@ -254,7 +260,7 @@
             <li>Code for 1 hour -- you could send us a screenshot of your <a href="https://www.rescuetime.com/">Rescuetime stats</a></li>
             <li>Fix form dropdown bug -- maybe a gif of the form dropdown now working?</li>
           </ul>
-          You can blur out sensitive data, just make sure your computer / phone time and date is present. 
+          You can blur out sensitive data, just make sure your computer / phone time and date is present.
         </div>
       </div>
     </div>
@@ -302,7 +308,7 @@
         </div>
         <div class="col-sm-7 hiw-col text-sm-left">
           <h3>Is there a way I can add financial consequences if I don't get things done?</h3>
-          <p>Yes! We're partnering with our friends at <a href="https://beeminder.com">Beeminder</a>. You can set things up so that 
+          <p>Yes! We're partnering with our friends at <a href="https://beeminder.com">Beeminder</a>. You can set things up so that
           if you can't prove to Boss as a Service that your task has been successfully done, Beeminder will charge you a financial penalty.</p>
         </div>
       </div>
@@ -348,7 +354,7 @@
   </section>
 
 
-  
+
   <section class="text-center faq-sec">
     <div class="container">
       <div class="row">
@@ -374,7 +380,7 @@
         </div>
         <div class="col-sm-7 hiw-col text-sm-left">
           <h3>Click this button</h3>
-          <button class="btn btn-default" onclick="$crisp.push(['do', 'chat:open'])">Talk to Team BaaS</button> 
+          <button class="btn btn-default" onclick="$crisp.push(['do', 'chat:open'])">Talk to Team BaaS</button>
           <p>.</p>
         </div>
       </div>
@@ -385,7 +391,7 @@
 
 
 <section id="press-features">
-    
+
 <p class="text-center" style="margin-bottom:50px;font-weight: 600;">Featured on</p>
 
 <div class="container text-center">
@@ -398,6 +404,9 @@
     </div>
     <div class="col-sm">
       <img src="hn.png" height="80">
+    </div>
+    <div class="col-sm">
+      <img src="hbr.png" height="100">
     </div>
   </div>
 </div>
@@ -455,7 +464,7 @@
 <footer class="blockquote-footer">Micah Resnick, <cite title="Source Title">on <a target="_blank" href="https://www.producthunt.com/posts/boss-as-a-service/reviews">on Product Hunt</a></cite></footer>
 </div>
 </div>
-  
+
 <!-- Card 6 -->
 <div class="card">
 <div class="card-body">
@@ -482,7 +491,7 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 <footer class="blockquote-footer">Ayub Lin, <cite title="Source Title"> Entrepreneur and Digital Nomad</cite></footer>
 </div>
 </div>
-  
+
 
 </div>
 
@@ -492,7 +501,7 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 
 
 
- 
+
    <section class="text-center" id="join">
     <div class="container">
       <h1>🙌 What will you achieve in 2022?</h1>
@@ -545,7 +554,7 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 
 
       <!-- old waitlist signup -->
-      
+
 
             <!--  <form method="post" action="https://www.briskforms.com/go/0d85fe211f5f3301c96f0dd9fcb8b3a0">
               <div class="form-group">
@@ -584,7 +593,7 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 
 
 <div class="email-octopus-form-wrapper">
-  
+
     <p class="email-octopus-success-message"></p>
     <p class="email-octopus-error-message"></p>
 
@@ -624,11 +633,11 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
   </section>
 
 
-  
+
  <!-- Footer -->
     <footer class="realfooter">
     <p class="text-center"><a href="https://blog.bossasaservice.life">Blog</a> | <i class="fas fa-gift"></i> <a href="gift.html">Give a Gift</a> | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a> </p>
-     
+
     <p class="text-center">Made with <i class="fas fa-heart"></i> and inordinate amounts of <i class="fas fa-coffee"></i> by <a href="https://twitter.com/Manasvinik">@manasvinik</a>. |  &copy; Boss as a Service <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>.</p>
 
     </footer>

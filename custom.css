@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 26px;
 }
@@ -10,18 +14,22 @@ a {
 
 section li > a, section p > a, section h5 a {
   text-decoration: none;
-  color: #212529;
+  color: #286efa;
   padding: 1px 0 2.5px 0;
-  box-shadow: inset 0 -3px 0 #e92f9f;
+  box-shadow: inset 0 -2px 0 #286efa;
   background: 0 0;
   transition: box-shadow .2s;
 }
 
 
 section li > a:hover, section p > a:hover, section h5 a:hover {
-  box-shadow: inset 0 -4em 0 #F7B3DC;
-  color:#212529;
+  /* box-shadow: inset 0 -4em 0 #93c5fd; */
+  color:#4C86FA;
   text-decoration: none;
+  padding: 1px 0 2.5px 0;
+  box-shadow: inset 0 -2px 0 #4C86FA;
+  background: 0 0;
+  transition: box-shadow .2s;
 }
 
 
@@ -105,23 +113,61 @@ footer a:hover {
 
 h1 {
   font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: -.02em;
+}
+
+/*
+Extra small devices (portrait phones, less than 544px)
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+.page-main-text {font-size:3rem;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .page-main-text {font-size:3rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .page-main-text {font-size:3rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .page-main-text {font-size:4rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .page-main-text {font-size:5rem;} /*1rem = 16px*/
 }
 
 h1, h2 {
-  font-family: 'Poppins', sans-serif;
-  color:#393051;
+  font-family: 'Inter', sans-serif;
+  color:#262626;
   margin-bottom: 50px;
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color:#393051;
   margin-bottom: 30px;
 }
 
 
 h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color:#393051;
   margin-bottom: 30px;
 }
@@ -167,6 +213,7 @@ section {
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #e6eaef;
+  padding: 1rem 1rem;
   /*box-shadow: 0px 3px 8px rgba(0,0,0,0.1);*/
 }
 
@@ -184,6 +231,10 @@ background-image: url(data:image/svg+xml;charset=utf8,
 .nav-link {
   padding-right: 20px !important;
   padding-left:20px !important;
+  color: #404040 !important;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /* hero */
@@ -204,15 +255,19 @@ background-image: url(data:image/svg+xml;charset=utf8,
 
 .jumbo-text {
   margin-bottom:50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color:#fff;
 }
 
 
 #howitworks {
-  background-color: #cddcff61;
-  border-bottom: 1px solid #d5d5d5; 
+  /* background-color: #cddcff61; */
+  border-bottom: 1px solid #d5d5d5;
   border-top:1px solid #d5d5d5;
+}
+
+#howitworks .big-text {
+  font-size:18px;
 }
 
 
@@ -372,7 +427,7 @@ background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, F
 
 
 .my-comment {
-  color:#8897a8;
+  color:#6b7280;
   margin-top: 30px;
   font-size: 16px;
 }
@@ -541,7 +596,7 @@ li {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-/* blog 
+/* blog
 
 .jumbo-blog {
   border-bottom: 1px solid #d5d5d5;
@@ -568,9 +623,9 @@ li {
 
 
 .page-heading {
-  background: 
+  background:
     linear-gradient(
-      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45),
       rgba(255, 0, 0, 0.45)
     ),
     url('http://unsplash.it/1200x800') center center no-repeat;
@@ -678,7 +733,7 @@ li {
 }
 
 /*.btn-lg {
-  padding: 7px 5px !important;  
+  padding: 7px 5px !important;
 }*/
 
 .email-octopus-button {
@@ -772,5 +827,3 @@ background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox=
   clear: both;
   display: table;
 }
-
-
