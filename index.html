@@ -635,7 +635,7 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 </div>
 
 
-<p class="text-sm mt-4 text-center text-secondary">The next set of invites are getting ready to go in <span id="daysToGo"></span> days on Monday, <span id="invite-date"></span>. 😌</p>
+<p class="text-sm mt-4 text-center text-secondary"><span id="inviteWaittimeText"></span> 😌</p>
 
 
 </div>
@@ -748,13 +748,15 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 
 
     function formatDate(date) {
-    day = date.getUTCDate();
-    month = date.toLocaleString('default', { month: 'long' });
-    year = date.getUTCFullYear();
-    return day + " " + month + " " + year;
+      day = date.getUTCDate();
+      month = date.toLocaleString('default', { month: 'long' });
+      year = date.getUTCFullYear();
+      return day + " " + month + " " + year;
     }
 
-    $('#invite-date').text(formatDate(ourNextMonday));
+    var nextMondayDate = formatDate(ourNextMonday)
+
+    
 
     function getDaysToGo(date1, date2) {
       var Difference_In_Time = date2.getTime() - date1.getTime();
@@ -765,7 +767,21 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 
 
     var today = new Date()
-    $('#daysToGo').text(Math.round(getDaysToGo(today, ourNextMonday)));
+    var daysToGo = Math.round(getDaysToGo(today, ourNextMonday));
+    var finalText;
+
+    console.log("this is daysToGo: ", daysToGo)
+
+    if (daysToGo == 7) {
+      finalText = "We're sending one batch of invites today! 🎉 The next set of invites is getting ready to go out in " + daysToGo + " days, on next Monday, " + nextMondayDate
+    } else if (daysToGo == 1) {
+      finalText = "The next set of invites is getting ready to go out tomorrow, " + daysToGo + "on Monday, " + nextMondayDate
+    } else {
+      finalText = "The next set of invites is getting ready to go out in " + daysToGo + "days, on Monday, " + nextMondayDate
+    }
+
+
+    $('#inviteWaittimeText').text(finalText);
 
 });
 
