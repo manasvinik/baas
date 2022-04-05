@@ -733,6 +733,9 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
 <script>
      $( document ).ready(function() {
 
+
+    // waitlist eta
+
     function getNextMonday(date = new Date()) {
           const dateCopy = new Date(date.getTime());
 
@@ -780,8 +783,36 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
       finalText = "The next set of invites is getting ready to go out in " + daysToGo + " days, on Monday, " + nextMondayDate
     }
 
-
     $('#inviteWaittimeText').text(finalText);
+
+    // crisp chat response eta
+
+    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var d = new Date();
+    var dayName = days[d.getDay()];
+
+    $crisp.push(["on", "message:sent", sendCrispMessage])
+
+
+    function sendCrispMessage() {
+      if (dayName == "Sunday") {
+        $crisp.push(["do", "message:show", ["text", "Hello there! This is an automated message. We normally get back to you within 24 hours, and usually much sooner, but we don't work on Sundays. But don't worry, we'll get back you Monday morning first thing! Have a nice weekend till then!"]]);
+        $crisp.push(["do", "message:show", ["animation", { url: "https://media2.giphy.com/media/l0IpWdz5FIJCEJO6I/giphy.gif", type: "image/gif" }]]);
+      }
+    }
+      // } else {
+      //   $crisp.push(["do", "message:show", ["text", "Hello there! This is an automated message. Thanks so much for getting in touch, we usually get back to you within a day at most, and usually much earlier. See you soon!"]]);
+      // }
+
+
+
+
+
+
+
+
+
+
 
 });
 
