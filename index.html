@@ -798,6 +798,11 @@ Plainly and simply you have my heartfelt thanks, I'm just happy I was browsing P
       if (dayName == "Sunday") {
         $crisp.push(["do", "message:show", ["text", "Hello there! This is an automated message. We normally get back to you within 24 hours, and usually much sooner, but we don't work on Sundays. But don't worry, we'll get back you Monday morning first thing! Have a nice weekend till then!"]]);
         $crisp.push(["do", "message:show", ["animation", { url: "https://media2.giphy.com/media/l0IpWdz5FIJCEJO6I/giphy.gif", type: "image/gif" }]]);
+      } else {
+        const $elem = $(".cc-ripp");
+        $elem[0].style.setProperty('line-height', '15px', 'important');
+        $elem[1].style.setProperty('line-height', '15px', 'important');
+        $('.cc-ripp').text("We'll get back to you within 24 hours at most, and usually much sooner! Talk to you soon!");
       }
     }
       // } else {
